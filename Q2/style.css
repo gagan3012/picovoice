@@ -1,0 +1,58 @@
+body {
+    background: #f5f2f2;
+}
+
+#header {
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#start {
+    background-color: #c2ffbf;
+    color: black;
+    font-size: 14px;
+    border: 2px solid #69ce2b;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    padding: 4px 60px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#start:hover {
+    background-color: #69ce2b;
+    border-radius: 12px;
+
+}
+
+#volume {
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+
+#myCanvas {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    text-align: center;
+}
+
+#cells {
+    width: 500px;
+    position: absolute;
+    left: 120px;
+    top: 78px;
+}
+
+.cell {
+    /* width: calc(10% - 10px); */
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 1px;
+}
